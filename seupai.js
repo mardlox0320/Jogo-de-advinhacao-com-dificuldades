@@ -63,7 +63,7 @@ function gerarcustom1() {
         alert("Digite um número válido maior que 0");
         return;
     }
-
+    dificuldade = "(custom)"
     generate = Math.floor(Math.random() * valor) + 1
     h3.innerText = "um numero foi gerado, tente advinhar"
     h4.innerHTML = `<br><button type="button" onclick="verificar()">verificar</button>`
@@ -149,3 +149,4 @@ const verificar = () => {
 const final = () => {
     window.location.reload()
 }
+
